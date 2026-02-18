@@ -9,13 +9,20 @@ The project will utilize multiple independent SQL database instances with a cent
 
 
 
-Deliverables: 
-• A central coordinator service (Distributed Transaction Manager)
-• Multiple independent SQL database nodes (e.g., MySQL / PostgreSQL / SQLite instances)
-• Ability to execute one logical transaction across multiple databases
-• Guarantee:
-	•	Atomicity (all commit or all rollback)
-	•	Consistency across nodes
+# Deliverables
+
+- [ ] **Central Coordinator Service**
+  - Distributed Transaction Manager
+
+- [ ] **Multiple Independent SQL Database Nodes**
+  - Examples: MySQL, PostgreSQL, SQLite
+
+- [ ] **Transaction Execution**
+  - Ability to execute **one logical transaction** across multiple databases
+
+- [ ] **Guarantees**
+  - **Atomicity**: all commit or all rollback
+  - **Consistency**: ensure data consistency across nodes
 
 
 
