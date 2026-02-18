@@ -6,6 +6,19 @@ In todays Distributed computing landscape ensuring correctness of operation acro
 A challenge in this project is managing distributed operations where each node executes part of transaction independently, which can lead to inconsistent states if not properly coordinated. to address this the project implements the two-phase commit (2Pc) protocol. 
 The project will utilize multiple independent SQL database instances with a central coordinator service managing transaction flow. The project aims to demonstrate reliable distributed transaction management through careful logging, timeout handling and failure simulation. 
 
+
+
+
+Deliverables: 
+• A central coordinator service (Distributed Transaction Manager)
+• Multiple independent SQL database nodes (e.g., MySQL / PostgreSQL / SQLite instances)
+• Ability to execute one logical transaction across multiple databases
+• Guarantee:
+	•	Atomicity (all commit or all rollback)
+	•	Consistency across nodes
+
+
+
 Learning Outcome:
 Understand Distributed Transaction Fundamentals:
 
@@ -39,17 +52,3 @@ Week 6 [03/08 – 03/13]
 	- Handle failures 
 	- PowerPoint 
 	- Report 
-
-
-
-
-
-Deliverables: 
-• A central coordinator service (Distributed Transaction Manager)
-• Multiple independent SQL database nodes (e.g., MySQL / PostgreSQL / SQLite instances)
-• Ability to execute one logical transaction across multiple databases
-• Guarantee:
-•	Atomicity (all commit or all rollback)
-•	Consistency across nodes
-
-<img width="468" height="636" alt="image" src="https://github.com/user-attachments/assets/6c0d5808-b6a3-4748-99e7-c264434457aa" />
